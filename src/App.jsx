@@ -117,11 +117,11 @@ const ErrorMessage = styled.p`
 
 const MainContainer = styled.div`
   height: 100%;
-  background-image: url('/images/pattern-bg-desktop.png');
+  background-image: url('./images/pattern-bg-desktop.png');
   background-repeat: no-repeat;
   padding:30px 0;
   @media screen and (max-width:375px){
-    background-image: url('/images/pattern-bg-mobile.png');
+    background-image: url('./images/pattern-bg-mobile.png');
     ${MapsContainer} {
       transform:translateY(-200px);
     }
