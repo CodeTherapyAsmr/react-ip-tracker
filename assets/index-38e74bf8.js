@@ -124,6 +124,7 @@ Error generating stack: `+l.message+`
   background-image: url('./images/pattern-bg-desktop.png');
   background-repeat: no-repeat;
   padding:30px 0;
+  background-size:contain ;
   @media screen and (max-width:375px){
     background-image: url('./images/pattern-bg-mobile.png');
     ${hm} {
